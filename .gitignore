@@ -1,0 +1,20 @@
+# Kredensial database asli — JANGAN pernah commit
+config/db.php
+
+# File upload pengguna (foto KTP, bukti bayar, dll) — data privat, jangan ikut repo
+uploads/*
+!uploads/*/
+!uploads/*/.gitkeep
+
+# File sistem/OS
+.DS_Store
+Thumbs.db
+
+# File editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Log
+*.log
+error_log
