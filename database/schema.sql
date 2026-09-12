@@ -1,29 +1,5 @@
--- =====================================================
--- Wisma Permata — Database Schema (STRUKTUR SAJA)
--- =====================================================
--- File ini HANYA berisi struktur tabel (CREATE TABLE),
--- TANPA data pengguna asli — aman untuk repository publik.
---
--- Cara pakai:
--- 1. Buat database baru di MySQL/MariaDB (mis. lewat phpMyAdmin)
--- 2. Import file ini ke database tersebut
--- 3. (Opsional) Buat akun admin pertama secara manual, contoh:
---
---    INSERT INTO users (kode_user, nama, email, password, nomor_telepon, role, status)
---    VALUES ('PGH0001', 'Admin', 'admin@example.com',
---            '$2y$10$XdkjucANOuiLjJmDeAzPA.DC9EDh2HCSnb7X8uCQxFpMi9qpRC88W',
---            '081234567890', 'pemilik', 'aktif');
---    -- Password hash di atas = "GantiSaya123!". GANTI setelah login pertama kali!
--- =====================================================
 
--- phpMyAdmin SQL Dump
--- version 5.2.3
--- https://www.phpmyadmin.net/
---
--- Host: localhost:3306
--- Generation Time: Aug 27, 2026 at 02:57 PM
--- Server version: 11.4.13-MariaDB
--- PHP Version: 8.4.24
+-- Wisma Permata — Database Schema (STRUKTUR SAJA)
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
