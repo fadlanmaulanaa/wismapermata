@@ -1,13 +1,4 @@
 <?php
-// =====================================================
-// Wisma Permata — Konfigurasi Database (CONTOH)
-// =====================================================
-// 1. Copy/rename file ini menjadi "db.php" di folder yang sama
-// 2. Isi DB_USER, DB_PASS, DB_NAME sesuai database Anda
-// 3. File "db.php" hasil rename TIDAK akan ikut ter-commit ke Git
-//    (sudah didaftarkan di .gitignore) — supaya kredensial asli
-//    Anda tidak pernah ter-upload ke repository publik.
-// =====================================================
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
